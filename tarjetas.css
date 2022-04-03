@@ -1,0 +1,85 @@
+html{
+    height: 100%;
+}
+
+.fondo_animado{
+    width: 100%;
+    height: 100vh;
+    background-image: radial-gradient(circle at 110.16% 39.39%, #ff68ff 0, #e054fe 25%, #b53cf2 50%, #8526e6 75%, #4d1cde 100%);
+    position: relative;
+    overflow: hidden;
+}
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    margin: 10px;
+}
+
+.caja{
+    max-width: 1200px;
+    height: 430px;
+    display: inline-block;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 16vh;
+    margin-left: 19vh;
+    margin-right: 16vh
+}
+
+.caja .card{
+    background-color: white;
+    float: left;
+    overflow: hidden;
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.445);
+    margin: 35px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.caja .card a{
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    background:#1A2849;
+    padding: 10px;
+    margin: 2%;
+    border-radius: 15px;
+}
+
+
+.caja .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.caja .card img{
+    width: 330px;
+    height: 220px;
+
+}
+
+
+.caja .card h4{
+    font-weight: 600;
+}
+
+.caja .card p{
+    padding: 0 1rem;
+    font-size: 14px;
+    font-weight: 300;
+}
+/*
+.caja .card a{
+    font-weight: 500;
+    text-decoration: none;
+    color: #3492db;
+}*/
+
